@@ -76,4 +76,3 @@ Have a project worth building? I reply within 24h.
 
 [![Email](https://img.shields.io/badge/✉_Start_a_conversation-3DD7C2?style=for-the-badge&labelColor=0D1117)](mailto:rakibulislammehedi4@gmail.com)
 [![X](https://img.shields.io/badge/↗_@rakibulislammehedi02-161B22?style=for-the-badge&labelColor=0D1117)](https://x.com/rakibulislammehedi02)
-[![QuantiS](https://img.shields.io/badge/◆_QuantiS_org-161B22?style=for-the-badge&labelColor=0D1117)](https://github.com/QuantiS)
