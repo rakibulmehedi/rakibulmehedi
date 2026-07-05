@@ -11,7 +11,7 @@ End to end, tested, handed off clean.
 
 ![Booking new projects](https://img.shields.io/badge/●_booking_new_client_projects-3DD7C2?style=for-the-badge&labelColor=0D1117)
 
-![1120+ tests](https://img.shields.io/badge/1120%2B-tests_·_flagship-3DD7C2?style=flat-square&labelColor=0D1117&color=161B22)
+![Tested](https://img.shields.io/badge/CI_gated-full_test_suite-3DD7C2?style=flat-square&labelColor=0D1117&color=161B22)
 ![6 domains](https://img.shields.io/badge/6-domains_shipped-3DD7C2?style=flat-square&labelColor=0D1117&color=161B22)
 ![4 languages](https://img.shields.io/badge/4-languages_in_prod-3DD7C2?style=flat-square&labelColor=0D1117&color=161B22)
 ![NDA friendly](https://img.shields.io/badge/NDA-friendly_·_clean_handoff-E8A33D?style=flat-square&labelColor=0D1117&color=161B22)
@@ -56,7 +56,7 @@ Flutter finance app for freelancers with unstable income — know exactly what's
 
 Source available under NDA · live walkthrough on a call · redacted public showcase in progress.
 
-> **quantis** — Regime-aware alpha engines · empirical-Kelly sizing · 8-gate risk governor · Ed25519 kill-switches · sub-millisecond ZMQ pipeline. **1120+ tests.**
+> **quantis** — Regime-aware alpha engines · empirical-Kelly sizing · 8-gate risk governor · Ed25519 kill-switches · sub-millisecond ZMQ pipeline. **Comprehensive, CI-gated test suite.**
 >
 > **APEX** — Hybrid C++20 / Python HFT infrastructure · Kalman-filter & Ornstein–Uhlenbeck state estimation · Modified-Kelly & VaR risk management.
 
