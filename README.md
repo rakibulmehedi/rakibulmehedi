@@ -4,75 +4,55 @@
 
 <br/>
 
-**I ship AI products, cross-platform apps, and the quantitative systems most engineers won't touch.**
-End to end, tested, handed off clean.
+**Founder & Systems Architect.** I design and build systems where business rules, software and automation have to work together.
+
+AI-enabled workflow systems · Python backends and API integrations · Flutter apps · quantitative tooling
 
 <br/>
 
-![Booking new projects](https://img.shields.io/badge/●_booking_new_client_projects-3DD7C2?style=for-the-badge&labelColor=0D1117)
-
-![2000+ tests](https://img.shields.io/badge/2000%2B-tests_·_flagship-3DD7C2?style=flat-square&labelColor=0D1117&color=161B22)
-![6 domains](https://img.shields.io/badge/6-domains_shipped-3DD7C2?style=flat-square&labelColor=0D1117&color=161B22)
-![4 languages](https://img.shields.io/badge/4-languages_in_prod-3DD7C2?style=flat-square&labelColor=0D1117&color=161B22)
-![NDA friendly](https://img.shields.io/badge/NDA-friendly_·_clean_handoff-E8A33D?style=flat-square&labelColor=0D1117&color=161B22)
+![Taking on scoped client work](https://img.shields.io/badge/●_taking_on_scoped_client_work-3DD7C2?style=for-the-badge&labelColor=0D1117)
 
 </div>
 
 ---
 
-## What I build for you
+## Public work you can inspect
 
-| ◈ &nbsp;AI Products & Automation | ▤ &nbsp;Apps & Platforms | ∿ &nbsp;Quantitative Systems 🔒 |
+| Project | What it shows | Stack |
 |:---|:---|:---|
-| Multi-tenant SaaS, agentic pipelines, and scraping systems that run themselves — from LLM integration to human-in-the-loop approval. | Offline-first Flutter apps and fullstack monorepos, from empty repo to store-ready. Clean architecture, real test coverage. | The deep end: HFT infrastructure, Kalman & Ornstein–Uhlenbeck estimation, empirical-Kelly risk governors, sub-ms pipelines. |
-| [`afie`](https://github.com/rakibulmehedi/afie) · [`adcraft`](https://github.com/rakibulmehedi/adcraft) · [`telegraft`](https://github.com/rakibulmehedi/telegraft) | [`Helm`](https://github.com/rakibulmehedi/Helm) · [`NeonVegas`](https://github.com/rakibulmehedi/NeonVegas) | `quantis` · `APEX` *(private)* |
+| [**Helm**](https://github.com/rakibulmehedi/Helm) | Finance app for freelancers with irregular USD income. Expected, pending and received income are tracked separately, and one safe-to-spend figure shows its full breakdown. Offline-first, PIN and biometric unlock, hash-chained audit log, English and Bengali. Release v0.9.0. | `Flutter` `Riverpod` `Hive` `GoRouter` |
+| [**ou_estimator**](https://github.com/rakibulmehedi/ou_estimator) | My independent project: Ornstein–Uhlenbeck parameter estimation in a Flutter app, running on the device. Implements a closed-form OLS fit and an exact-likelihood MLE minimised with a Nelder–Mead optimiser written in Dart. Reports θ, μ, σ, half-life and fit diagnostics, and rejects series that are not mean-reverting. | `Dart` `Flutter` `Isar` |
 
 ---
 
-## Selected work
+## Private systems — described, not published
 
-> **Flagships**
+**Workflow platform** — multi-tenant content workflows with saga-style orchestration and human approval gates. Inspected transition code checks tenant, expected state and version, and records accepted transitions. Python · FastAPI · PostgreSQL.
 
-**[afie](https://github.com/rakibulmehedi/afie)** &nbsp;·&nbsp; ![AI SaaS](https://img.shields.io/badge/AI_·_SaaS-3DD7C2?style=flat-square&labelColor=0D1117)
-Autonomous Founder Identity Engine — a multi-tenant AI platform that synthesizes, approves, and distributes founder content at institutional quality. Saga-pattern orchestration, human-in-the-loop gating.
-`Python` · `FastAPI` · `Next.js` · `PostgreSQL`
+**Publishing operations system** — AI-assisted content workflows combining generation, validation, explicit publishing authority, halt controls and delivery reconciliation. Python · FastAPI · Next.js · PostgreSQL.
 
-**[Helm](https://github.com/rakibulmehedi/Helm)** &nbsp;·&nbsp; ![Mobile](https://img.shields.io/badge/Mobile-00B4AB?style=flat-square&labelColor=0D1117)
-Flutter finance app for freelancers with unstable income — know exactly what's safe to spend, not just your balance. Offline-first, clean architecture, built to ship.
-`Dart` · `Flutter` · `Riverpod` · `Hive`
+**Quantitative trading research** — a sequential risk governor with kill-switch and stale-data rejection paths, and design work on a hybrid C++20/Python trading architecture with Kalman-filter and Ornstein–Uhlenbeck state estimation. Research infrastructure; no trading-performance claims.
 
-> **Also worth a look**
-
-| Project | What it is | Stack |
-|:---|:---|:---|
-| [**adcraft**](https://github.com/rakibulmehedi/adcraft) | AI ad-copy generator across 6 platforms, packaged as a SaaS | `Python` `LangChain` `FastAPI` |
-| [**telegraft**](https://github.com/rakibulmehedi/telegraft) | Production Telegram content pipeline — scrape, curate, republish | `Python` `asyncio` `Docker` |
-| [**NeonVegas**](https://github.com/rakibulmehedi/NeonVegas) | Flutter + NestJS fullstack monorepo, end-to-end typed | `Dart` `NestJS` `Prisma` |
-| [**ou_estimator**](https://github.com/rakibulmehedi/ou_estimator) | Ornstein–Uhlenbeck parameter estimator (OLS / exact MLE) | `Dart` `Flutter` |
+Source code stays private. I can walk through the design decisions on a call.
 
 ---
 
-## 🔒 Institutional work — private
+## How I work
 
-Source available under NDA · live walkthrough on a call · redacted public showcase in progress.
+- Agree the outcome and how it will be checked before building.
+- Make approvals, failures and retries explicit instead of hoping they don't happen.
+- Hand over with a runbook so the system can be operated without me.
+- I use AI-assisted engineering, including Claude Code, and stay responsible for architecture, review and acceptance.
 
-> **quantis** — Regime-aware alpha engines · empirical-Kelly sizing · 8-gate risk governor · Ed25519 kill-switches · sub-millisecond ZMQ pipeline. **2000+ tests.**
->
-> **APEX** — Hybrid C++20 / Python HFT infrastructure · Kalman-filter & Ornstein–Uhlenbeck state estimation · Modified-Kelly & VaR risk management.
+**Open to:** workflow implementation and API integration, Flutter apps, and architecture work, each scoped before it starts.
 
 ---
 
 ## Stack
 
-[![Stack](https://skillicons.dev/icons?i=python,flutter,dart,typescript,fastapi,nestjs,postgres,redis,docker,git&theme=dark)](https://github.com/rakibulmehedi)
-
-<sub>Also: C++20 · ZeroMQ · LangChain · Prisma · Hive · Pydantic · pytest</sub>
+[![Stack](https://skillicons.dev/icons?i=python,fastapi,postgres,docker,flutter,dart,typescript,nextjs,cpp,git&theme=dark)](https://github.com/rakibulmehedi)
 
 ---
-
-## Let's build something
-
-Have a project worth building? I reply within 24h.
 
 [![Email](https://img.shields.io/badge/✉_Start_a_conversation-3DD7C2?style=for-the-badge&labelColor=0D1117)](mailto:rakibulislammehedi4@gmail.com)
 [![X](https://img.shields.io/badge/↗_@rakibulislammehedi02-161B22?style=for-the-badge&labelColor=0D1117)](https://x.com/rakibulislammehedi02)
